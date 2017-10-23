@@ -11,11 +11,12 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         Contacts contact = new Contacts();
+        Scanner entery  = new Scanner(System.in);
         while (true) {
             System.out.println("- Просмотр контактов: 0");
             System.out.println("- Добавить контакт: 1");
             System.out.println("- Выход: 2");
-            Scanner entery  = new Scanner(System.in);
+
             int inputMenu = entery.nextInt();
 
             if (inputMenu == 1){
